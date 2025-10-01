@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         // Pedir el nombre de la araña
-        String art = """
+        String dibujo_telaarana = """
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡖⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠘⢦⠀⠀⠀⠀⠀⠀⠀⠀⢠⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠈⢳⡀⠀⠀⠀⠀⠀⣠⣾⠙⢦⣀⠀⠀⠀⠀⠀⠀⠀⢀⣠⠔⠂
@@ -33,7 +33,7 @@ public class Main {
         System.out.print("\nBienvenido a la aventura de la araña 🐜");
         System.out.print("\nDinos cómo se llama tu araña: ");
         String nombre = sc.nextLine();
-        System.out.println(art);
+        System.out.println(dibujo_telaarana);
 
         System.out.println("¡Hola, " + nombre + "! Hoy te despiertas en el aula de ASIR 1.");
         System.out.println("Frente a ti hay una ventana abierta y la puerta del aula.");
